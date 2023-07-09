@@ -14,6 +14,7 @@
     -addres: 141, Barykina Street, Gomel, Repablic of Belarus
     -phone: +375 29 370 24 19
     -email: genozu@yandex.by
+    -discord: Nikita Pankov(@Genozu)
 
 ## ***SKILLS***
     - engineering programs: SCAD Office, AutoCAD, Revit
