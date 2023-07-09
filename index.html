@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<title>Curriculum Vitæ</title>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href = "img/icon.png">
+</head>
+
+<header>
+    <nav class="nav ul">
+        <ul class="nav-list">
+            <li class="nav li"><a class="nav a" href ="#Aboute me">Aboute me</a></li>
+            <li class="nav li"><a href ="#Education" class="nav a">Education</a></li>
+            <li class="nav li"><a href ="#Skills" class="nav a">Skills</a></li>
+            <li class="nav li"><a href ="#Code example" class="nav a">Code example</a></li>
+            <li class="nav li"><a href ="#My contacts" class="nav a">My contacts</a></li>
+            <li class="nav li"><a href ="#languages" class="nav a">languages</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="main">
+    <h1 class="h1">Nikita Pankov</h1>
+    <img src="img/img.jpg" alt="My photo" class="photo">
+    <section id="My contacts">
+        <h2>MY CONTACTS</h2>
+        <ol>
+            <li>Addres: <span itemprop="address">141, Barykina Street, Gomel, Repablic of Belarus</span></li>
+            <li>Phone: <span itemprop="telephone">+375 29 370 24 19</span></li>
+            <li>Email: <span itemprop="email">genozu@yandex.by</span></li>
+            <li>Discord: Nikita Pankov(@Genozu)</li>
+        </ol>
+
+    </section>
+
+    <section id="Aboute me">
+        <h2>ABOUTE ME</h2>
+        <p>Responsible - Attentive - Highly Organized - Learner - Sociable:</p>
+        <ul>
+            <li>
+                from 2014-2015 performed duties related 
+                to the repair of office equipment (computer, printer, plotera)
+                 in ODO "Office Satellite";
+            </li>
+            <li>
+                in 2017 he worked as a sushi chef in Bonsai;
+            </li>
+            <li>
+                from 2017-2018 he carried out work on the 
+                installation of gas equipment, heating, electrics;
+            </li>
+            <li>
+                from 2018-2022 he worked as a civil engineer 
+                in a design organization, and also held the 
+                position of assistant to the chief project engineers 
+                in the organization of JSC "Giprozhivmash";
+            </li>
+            <li>
+                from 2023 to the present day, I have been working as 
+                an engineer for construction solutions and inspection 
+                of buildings and structures.
+            </li>
+        </ul>
+    </section>
+
+    <section id="Education">
+        <h2>EDUCATION</h2>
+        <ul>
+            <li>
+                Creative shool <a href="https://school-19.by/">(school 19, Gomel, Repablic of Belarus 
+                2000-2011)</a>;
+            </li>
+            <li>
+                Civil engeneer <a href="https://www.bsut.by/">(Belarusian State University of Transport 
+                2011-2021)</a>;
+            </li>
+            <li>
+                HTML and CSS basic <a href="https://htmlacademy.ru/courses/basic-html-css">(courses HTML Academy 2021)</a>;
+            </li>
+            <li>
+                Python basics <a href="https://ru.hexlet.io/courses/python-basics">(courses hexlet october-december 2022)</a>;
+            </li>
+        </ul>
+    </section>
+
+    <section id="Skills">
+        <h2>SKILLS</h2>
+        <ul>
+            <li>
+                engineering programs: SCAD Office, AutoCAD, Revit;
+            </li>
+            <li>
+                programming language: python;
+            </li>
+            <li>
+                version control system: Git;
+            </li>
+            <li>
+                development tools: Visual Studio Code.
+            </li>
+        </ul>
+    </section>
+
+    <section id="Code example">
+        <h3>Code example</h3>
+        <p>Python:</p>
+        <code class="code">
+            <pre>
+# Function for checking tables in the DataBase
+
+def table_verification(connection, name_table, data_column):
+    
+    name = f"'{name_table}'"
+    query = "SELECT name FROM sqlite_master WHERE type='table';"
+    result = execute_read_query(connection, query)
+    print(result)
+    
+    if (name_table,) in result:
+        print(f'Таблица {name_table} присутсвует!')
+    else:
+        print(f'Таблица {name_table} отсутсвует!')
+               
+        create = create_table(name, data_column)
+        execute_query(connection, create)
+            </pre>
+        </code>
+    </section>
+
+    <section id="languages">
+        <h2>LANGUAGES</h2>
+        <ul>
+            <li>English - elementary (A1)</li>
+            <li>Russian - native</li>
+        </ul>
+    </section>
+</main>
+
+<footer class="footer">
+    <p>@2023 Nikita Pankov</p>
+    <a href="https://github.com/Genozu">GitHab</a>
+    <a href="https://rs.school/js-stage0/"><img src="https://rs.school/images/rs_school_js.svg" alt="Logo" class="logo"></a>
+</footer>
+</html>

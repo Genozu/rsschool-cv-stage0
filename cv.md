@@ -1,17 +1,32 @@
 # **Nikita Pankov**
 
+![photo](/img/img.jpg "Photo")
+
+## ***ABOUTE ME***
+### Responsible - Attentive - Highly Organized - Learner - Sociable:
+    - from 2014-2015 performed duties related to the repair of office equipment (computer, printer, plotera) in ODO "Office Satellite";
+    - in 2017 he worked as a sushi chef in Bonsai;
+    - from 2017-2018 he carried out work on the installation of gas equipment, heating, electrics;
+    - from 2018-2022 he worked as a civil engineer in a design organization, and also held the position of assistant to the chief project engineers in the organization of JSC giprozhivmash
+    - from 2023 to the present day, I have been working as an engineer for construction solutions and inspection of buildings and structures.
+
 ## ***MY CONTACTS***
     -addres: 141, Barykina Street, Gomel, Repablic of Belarus
     -phone: +375 29 370 24 19
     -email: genozu@yandex.by
+    -discord: Nikita Pankov(@Genozu)
 
 ## ***SKILLS***
+    - engineering programs: SCAD Office, AutoCAD, Revit
     - programming language: python
     - version control system: Git
     - development tools: Visual Studio Code
 
 ### _Code example_
 ```
+Python:
+# Function for checking tables in the DataBase
+
 def table_verification(connection, name_table, data_column):
     
     name = f"'{name_table}'"
