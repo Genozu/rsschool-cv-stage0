@@ -8,14 +8,14 @@
 </head>
 
 <header>
-    <nav class="nav ul">
-        <ul class="nav-list">
-            <li class="nav li"><a class="nav a" href ="#Aboute me">Aboute me</a></li>
-            <li class="nav li"><a href ="#Education" class="nav a">Education</a></li>
-            <li class="nav li"><a href ="#Skills" class="nav a">Skills</a></li>
-            <li class="nav li"><a href ="#Code example" class="nav a">Code example</a></li>
-            <li class="nav li"><a href ="#My contacts" class="nav a">My contacts</a></li>
-            <li class="nav li"><a href ="#languages" class="nav a">languages</a></li>
+    <nav class="nav">
+        <ul>
+            <li class="nav"><a href ="#Aboute" class="nav">Aboute me</a></li>
+            <li class="nav"><a href ="#Education" class="nav">Education</a></li>
+            <li class="nav"><a href ="#Skills" class="nav">Skills</a></li>
+            <li class="nav"><a href ="#Code" class="nav">Code example</a></li>
+            <li class="nav"><a href ="#contacts" class="nav">My contacts</a></li>
+            <li class="nav"><a href ="#languages" class="nav">languages</a></li>
         </ul>
     </nav>
 </header>
@@ -23,18 +23,18 @@
 <main class="main">
     <h1 class="h1">Nikita Pankov</h1>
     <img src="img/img.jpg" alt="My photo" class="photo">
-    <section id="My contacts">
+    <section id="contacts">
         <h2>MY CONTACTS</h2>
         <ol>
-            <li>Addres: <span itemprop="address">141, Barykina Street, Gomel, Repablic of Belarus</span></li>
-            <li>Phone: <span itemprop="telephone">+375 29 370 24 19</span></li>
-            <li>Email: <span itemprop="email">genozu@yandex.by</span></li>
+            <li>Addres: 141, Barykina Street, Gomel, Repablic of Belarus</span></li>
+            <li>Phone: +375 29 370 24 19</li>
+            <li>Email: genozu@yandex.by</li>
             <li>Discord: Nikita Pankov(@Genozu)</li>
         </ol>
 
     </section>
 
-    <section id="Aboute me">
+    <section id="Aboute">
         <h2>ABOUTE ME</h2>
         <p>Responsible - Attentive - Highly Organized - Learner - Sociable:</p>
         <ul>
@@ -102,11 +102,10 @@
         </ul>
     </section>
 
-    <section id="Code example">
+    <section id="Code">
         <h3>Code example</h3>
         <p>Python:</p>
         <code class="code">
-            <pre>
 # Function for checking tables in the DataBase
 
 def table_verification(connection, name_table, data_column):
@@ -123,7 +122,6 @@ def table_verification(connection, name_table, data_column):
                
         create = create_table(name, data_column)
         execute_query(connection, create)
-            </pre>
         </code>
     </section>
 
